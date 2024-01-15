@@ -1,0 +1,40 @@
+{
+  "Hardox 400": {
+    "hardness_HB": 400,
+    "hardness_HV": 421,
+    "hardness_MPa": 4125.8,
+    "wear_k": 9.42e5,
+    "e30": 4.9885e7,
+    "e90": 0.8125e7,
+    "beta_a": 1.935,
+    "beta_b": 7
+  },
+  "AISI 316L": {
+    "hardness_HV": 327.62,
+    "hardness_MPa": 3210.7,
+    "wear_k": 9.12e5,
+    "e30": 5.4266e7,
+    "e90": 1.1937e7,
+    "beta_a": 1.935,
+    "beta_b": 7
+  },
+  "TiC-NiMo + AISI 316L": {
+    "hardness_HV": 459.95,
+    "hardness_MPa": 4507.5,
+    "wear_k": 1.861e5,
+    "e30": 8.956e7,
+    "e90": 2.679e7,
+    "beta_a": 1.981,
+    "beta_b": 7
+  },
+  "Cr3C2-Ni": {
+    "hardness_HV": 1270,
+    "hardness_MPa": 12446,
+    "wear_k": 41.61e5,
+    "e30": 8.956e7,
+    "e90": 13.89e7,
+    "beta_a": 1.2,
+    "beta_b": 1
+  }
+}
+

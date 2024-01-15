@@ -1,0 +1,5 @@
+{
+  "Silica Sand": { "factor": 1.0, "v_ref": 40.0 },
+  "Alumina Wheel": { "factor": 1.73, "v_ref": 60.0 }
+}
+
