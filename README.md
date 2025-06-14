@@ -1,5 +1,29 @@
 # Wearcheck: tribological wear resistance estimator
+
+# Overview
+**Wearcheck** is a zero‐hassle cross-platform CLI (command line interface) tribological utility for quick abrasive or erosive mechanical wear‐risk estimates on CAD parts. A conjunction of [Archard's equation](https://en.wikipedia.org/wiki/Archard_equation) (modified for erosion and 3-body sliding or abrasion wheel cases), [β-curve distribution function](https://en.wikipedia.org/wiki/Beta_distribution) and [FreeCAD](https://www.freecad.org/) software is used for accurate wear prediction.
+
+![Theoretical Erosive wear and heat map in 3D](./screenshots/ICE_parts_erosion_20250607_200652.png)
+
+<p align="center"><i>Image 1. Theoretical erosive wear and heat map of ICE's parts with complex geometry. (It would be impossible to check them for the given conditions in real life)</i></p>
+
 ### Created for "Knowera" by Dmytro Tkachivskyi, PhD
+
+# Screenshots
+
+![Erosive wear in terminal](./screenshots/AISI%20316L_erosion_20250607_191721_terminal.png)
+
+<p align="center"><i>Image 2. Determining erosion of AISI 316L steel in terminal under 42° impact angle, using theoretical β-distribution curve</i></p>
+
+![Abrasion wear in 3D](./screenshots/Hardox%20400_abrasion_20250607_194843.png)
+
+<p align="center"><i>Image 3. Visualising sliding abrasive wear of Hardox 400 steel in 3D</i></p>
+
+![Erosive wear in 3D](./screenshots/TiC-NiMo%20+%20AISI%20316L_erosion_20250607_195223.png)
+
+<p align="center"><i>Image 4. Visualising aribitrary heat map during erosive wear of TiC-NiMo + AISI 316L cermet in 3D</i></p>
+
+
 # Table of contents
 - [Short description](#Short-description)
 - [Screenshots](#Screenshots)
@@ -18,28 +42,7 @@
 - [Licensing](#Licensing)
 - [Support this project](#Support-this-project)
 
-# Short description
-**Wearcheck** is a zero‐hassle cross-platform CLI (command line interface) tribological utility for quick abrasive or erosive mechanical wear‐risk estimates on CAD parts. A conjunction of [Archard's equation](https://en.wikipedia.org/wiki/Archard_equation) (modified for erosion and 3-body sliding or abrasion wheel cases), [β-curve distribution function](https://en.wikipedia.org/wiki/Beta_distribution) and [FreeCAD](https://www.freecad.org/) software is used for accurate wear prediction.
-
-# Screenshots
-
-![Erosive wear in terminal](./screenshots/AISI%20316L_erosion_20250607_191721_terminal.png)
-
-<p align="center"><i>Image 1. Determining erosion of AISI 316L steel in terminal under 42° impact angle, using theoretical β-distribution curve</i></p>
-
-![Abrasion wear in 3D](./screenshots/Hardox%20400_abrasion_20250607_194843.png)
-
-<p align="center"><i>Image 2. Visualising sliding abrasive wear of Hardox 400 steel in 3D</i></p>
-
-![Erosive wear in 3D](./screenshots/TiC-NiMo%20+%20AISI%20316L_erosion_20250607_195223.png)
-
-<p align="center"><i>Image 3. Visualising aribitrary heat map during erosive wear of TiC-NiMo + AISI 316L cermet in 3D</i></p>
-
-![Theoretical Erosive wear and heat map in 3D](./screenshots/ICE_parts_erosion_20250607_200652.png)
-
-<p align="center"><i>Image 4. Theoretical erosive wear and heat map of ICE's parts with complex geometry. (It would be impossible to check them for the given conditions in real life)</i></p>
-
-# Elaborate description
+# Description
 
 **Wearcheck** is a single-command “what-if” calculator for mech­anical wear of part of *any* geometrical complexity. It is aimed at engineers who need a *first-order* answer **now**, long before a full DOE or dozens of ASTM/GOST (and other standards) coupons can be scheduled.
 
