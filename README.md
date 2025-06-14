@@ -1,6 +1,5 @@
 # Wearcheck: tribological wear resistance estimator
 
-# Overview
 **Wearcheck** is a zero‐hassle cross-platform CLI (command line interface) tribological utility for quick abrasive or erosive mechanical wear‐risk estimates on CAD parts. A conjunction of [Archard's equation](https://en.wikipedia.org/wiki/Archard_equation) (modified for erosion and 3-body sliding or abrasion wheel cases), [β-curve distribution function](https://en.wikipedia.org/wiki/Beta_distribution) and [FreeCAD](https://www.freecad.org/) software is used for accurate wear prediction.
 
 ![Theoretical Erosive wear and heat map in 3D](./screenshots/ICE_parts_erosion_20250607_200652.png)
